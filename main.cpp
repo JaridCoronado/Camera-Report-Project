@@ -2,11 +2,10 @@
 
 using namespace CameraReport_NS;
 
-//CameraReport cr;
+CameraReport cr;
 
 int main()
 {
-  CameraReport cr;
   cr.SetMainProjectNotes();
   cr.ShowNotes(cr.GetMainNotesArray());
 
